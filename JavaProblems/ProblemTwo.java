@@ -8,11 +8,14 @@ public class ProblemTwo {
     public static void main(String[] args) {
 
         List<Student> students = Arrays.asList(
+                new Student(100, "Alice"),
                 new Student(101, "Joe"),
                 new Student(103, "Zulkifli"),
                 new Student(102, "Riza"),
                 new Student(104, "Alice"),
-                new Student(105, "Joshua")
+                new Student(105, "Joshua"),
+                new Student(106, "Reyvant"),
+                new Student(107, "Riza")
         );
 
         List<Student> ans = students.stream() // Membuka stream
